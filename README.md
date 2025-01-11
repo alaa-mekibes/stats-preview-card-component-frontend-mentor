@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/huddle-landing-page-with-alternating-feature-blocks-CB3uLSkASi
+- Solution URL: https://www.frontendmentor.io/solutions/stats-preview-card-component-ZkTCPdVy0K
   
 - Live Site URL: https://alaa-mekibes.github.io/stats-preview-card-component-frontend-mentor
 
