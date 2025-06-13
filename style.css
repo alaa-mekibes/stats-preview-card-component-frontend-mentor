@@ -51,10 +51,10 @@ body {
     border-top-left-radius: var(--border-r);
     border-top-right-radius: var(--border-r);
 }
-.box .content {
+.content {
     padding: 3rem 2rem;
 }
-.box .content h1 {
+.content h1 {
     color: var(--White);
     font-size: 1.75rem;
     font-weight: 700;
@@ -63,35 +63,35 @@ body {
         color: var(--Soft-violet)
     }
 }
-.box .content p {
+.content p {
     color: var(--Slightly-transparent-white-main);
     font-size: var(--FontSize);
     line-height: 1.8;
     margin-bottom: 2rem;
     text-wrap: balance;
 }
-.box .content .stats {
+.content .stats {
     display: flex;
     flex-direction: column;
     gap: 2rem
 }
-.box .content .stats .stat {
+.content .stats .stat {
     display: flex;
     flex-direction: column;
 }
-.box .content .stats .stat span:first-child {
+.content .stats .stat span:first-child {
     color: var(--White);
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 5px
 }
-.box .content .stats .stat span:last-child {
+.content .stats .stat span:last-child {
     font-family: "Lexend Deca", serif;
     color: var(--Slightly-transparent-white-stat);
     text-transform: uppercase;
     font-size: .875rem
 }
-@media (min-width: 992px) {
+@media (min-width: 62rem) {
     .box {
         display: flex;
         flex-direction: row-reverse;
@@ -113,7 +113,7 @@ body {
         border-top-right-radius: var(--border-r);
         border-bottom-right-radius: var(--border-r);
     }
-    .box .content {
+    .content {
         width: 60%;
         padding: 4rem;
         h1 {
@@ -125,12 +125,12 @@ body {
             margin-bottom: 5rem;
         }
     }
-    .box .content .stats {
+    .content .stats {
         display: flex;
         flex-direction: row;
         gap: 5rem;
     }
-    .box .content .stats .stat {
+    .content .stats .stat {
         display: flex;
         flex-direction: column;
         span:first-child {
@@ -141,11 +141,11 @@ body {
         }
     }
 }
-@media (min-width: 992px) and (max-width: 1080px) {
-    .box .content {
+@media (min-width: 62rem) and (max-width: 67.5rem) {
+    .content {
         padding: 3rem 2rem;
       }
-      .box .content .stats {
+      .content .stats {
         gap: 3rem;
       }
 }
