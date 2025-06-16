@@ -19,8 +19,7 @@ body {
     background-color: var(--Very-dark-blue);
     display: grid;
     place-items: center;
-    min-height: 100vh;
-    padding: 1rem
+    min-height: 100vh
 }
 .box {
     --border-r: .5rem;
